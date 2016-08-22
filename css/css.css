@@ -1,0 +1,171 @@
+/* paleta de cores
+
+  #e61263 - ROSA PARA BACKGROUND - ROZA CLARO
+  #4d0621 -  ROSA ESCURO LETRAS
+  #615e06 - verde escuro padrao do site
+  #C7C10D - VERDE CLARO
+
+
+
+  */
+
+  
+
+  .navbar-default {
+    background-color: #f8f8f8;
+    border:none;
+  }
+  .bg-gray{
+    background-color: #e7e7e7;
+  }
+  .bg-green{
+    background-color: #C7C10D;
+  }
+
+
+  @media screen and (max-width: 766px)  {
+    .bg-green div{
+      border-bottom: 1px solid #7a7708;
+    }
+    body{
+    padding-top: 45px;
+  }
+  }
+
+
+  @media screen and (min-width: 767px )and (max-width: 992px)  {                            
+    #imgSorvete{
+      margin-top: 220px;
+    }
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1199px)  {                            
+    #imgSorvete{
+      margin-top: 180px;
+
+    }
+  }
+  @media screen and (min-width: 1200px){
+    #imgSorvete{
+      margin-top: 100px;
+
+    }
+  }
+
+
+
+
+
+  p.h3{
+    font-weight: 700;
+    color: #808080;
+  }
+
+  p.h1{
+    color: #CB3361;
+    font-family: "impact"
+  }
+
+  .bg-green p{
+    color: white;
+  }
+
+  #produtos{
+    background-color: white;
+  }
+
+  .col-md-12>iframe{
+    width: 100%;
+    height: 400px;
+  }
+
+  #historia {
+    color: #615e06; /* verde escuro padrao do site*/
+  }
+
+  .faixa{
+    background-color:#e61263;
+    color: white; 
+
+  }
+
+  /* ESTILO LINKS DA BARRA DE MENU */
+  #menu-bar ul li a:hover{
+    color: #e61263;
+  }
+  /* FIM ESTILO LINKS DA BARRA DE MENU */
+
+  .content{
+    margin-top: 60px;
+  }
+
+  h1>.label-default{
+    background-color: #e61263;
+  }
+
+  img.media-object{
+    width: 100px;
+  }
+
+  a.list-group-item-info{
+    color: darkblue;
+  }
+  a.list-group-item-info:hover{
+    background-color: darkblue;
+    color: white;
+  }
+
+  div.dropdown-toggle:hover{
+    background-color: #615e06;
+  }
+
+  #footer{
+    background-color:#e61263;
+  }
+
+
+
+
+  
+
+  /* carousel - slide */
+  .carousel-control {
+    width: 50%;
+    background-color: rgb(255,255,255);
+    opacity: 0;
+    background-image: none;
+  }
+  a.carousel-control:focus{
+    opacity: 0;
+    background-image: none;
+    
+    
+  }
+  .carousel-control:hover{
+    opacity: 0;
+    background-color:  #e61263;
+    background-image: none;
+  }
+
+  
+  /* fim carousel - slide */
+
+
+  #footer ul>li{
+    padding: 15px;
+  }
+  #footer p{
+    color: white;
+  }
+
+  .bg-green div[data-toggle="collapse"]{
+   cursor: pointer; 
+ }
+
+
+ .carousel-caption{
+  background-color: #e61263;
+  float: left;
+  width: 100%;
+
+ }
