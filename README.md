@@ -1,2 +1,2 @@
 # dinamo
-site cujo modelo foi passado pelo professor do curso 
+site cujo layout (jpg) foi passado pelo professor do curso 
